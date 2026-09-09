@@ -1440,3 +1440,46 @@ body.dark-mode {
     }
 
 }
+/* ================================
+   MOBILE NAVBAR
+================================ */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 0.7rem 0.6rem;
+        grid-template-columns: auto 1fr auto;
+        gap: 0.4rem;
+    }
+
+    .brand {
+        justify-self: start;
+        gap: 0.2rem;
+    }
+
+    .brand-main {
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+
+    .brand-sub {
+        font-size: 0.6rem;
+    }
+
+    .nav-links {
+        order: initial;
+        width: auto;
+        min-width: 0;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 0.45rem;
+    }
+
+    .nav-links a {
+        font-size: 0.65rem;
+        white-space: nowrap;
+    }
+
+    .theme-toggle {
+    display: none;
+}
