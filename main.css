@@ -1458,12 +1458,12 @@ body.dark-mode {
     }
 
     .brand-main {
-        font-size: 1.1rem;
+        font-size: 1.5rem;
         letter-spacing: 1px;
     }
 
     .brand-sub {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 
     .nav-links {
@@ -1476,10 +1476,12 @@ body.dark-mode {
     }
 
     .nav-links a {
-        font-size: 0.65rem;
+        font-size: 0.85rem;
         white-space: nowrap;
     }
 
     .theme-toggle {
-    display: none;
+        display: none;
+    }
+
 }
