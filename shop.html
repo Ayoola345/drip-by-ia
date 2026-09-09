@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Shop unique vintage and thrift fashion at Drip by I&A."
+    >
+
+    <title>Shop | Drip by I&A</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    >
+</head>
+
+<body>
+
+    <!-- ================================
+         HEADER
+    ================================= -->
+
+    <header class="site-header">
+
+        <div class="navbar">
+
+            <a href="index.html" class="brand">
+                <span class="brand-main">DRIP</span>
+                <span class="brand-sub">by I&A</span>
+            </a>
+
+            <nav class="nav-links" aria-label="Main navigation">
+
+                <a href="index.html">Home</a>
+
+                <a href="shop.html" class="active">Shop</a>
+
+                <a href="about.html">About</a>
+
+                <a href="contact.html">Contact</a>
+
+            </nav>
+
+            <button
+                id="theme-toggle"
+                class="theme-toggle"
+                type="button"
+                aria-label="Toggle dark mode"
+            >
+                🌙 Dark Mode
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================================
+             SHOP HERO
+        ================================= -->
+
+        <section class="shop-hero">
+
+            <div class="shop-hero-content">
+
+                <p class="section-label">DRIP BY I&A</p>
+
+                <h1>Find Your <span>Next Fit.</span></h1>
+
+                <p>
+                    Explore our collection of unique vintage,
+                    thrift and streetwear pieces.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================
+             SHOP SECTION
+        ================================= -->
+
+        <section class="shop-section">
+
+            <div class="shop-heading">
+
+                <div>
+
+                    <p class="section-label">OUR COLLECTION</p>
+
+                    <h2>Shop the Drip</h2>
+
+                </div>
+
+            </div>
+
+
+            <!-- Search and Filters -->
+
+            <div class="shop-controls">
+
+                <div class="search-box">
+
+                    <i class="fas fa-search"></i>
+
+                    <input
+                        type="search"
+                        id="product-search"
+                        placeholder="Search products..."
+                        aria-label="Search products"
+                    >
+
+                </div>
+
+
+                <div class="category-filters">
+
+                    <button
+                        type="button"
+                        class="filter-btn active"
+                        data-category="all"
+                    >
+                        All
+                    </button>
+
+                    <button
+                        type="button"
+                        class="filter-btn"
+                        data-category="women"
+                    >
+                        Women's Wear
+                    </button>
+
+                    <button
+                        type="button"
+                        class="filter-btn"
+                        data-category="men"
+                    >
+                        Men's Wear
+                    </button>
+
+                    <button
+                        type="button"
+                        class="filter-btn"
+                        data-category="streetwear"
+                    >
+                        Streetwear
+                    </button>
+
+                    <button
+                        type="button"
+                        class="filter-btn"
+                        data-category="kids"
+                    >
+                        Kids Wear
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================================
+                 PRODUCTS
+            ================================= -->
+
+            <div class="shop-product-grid">
+
+
+                <!-- 1. Pretty Girls Dress -->
+
+                <article class="shop-product-card" data-category="women">
+
+                    <div class="shop-product-image">
+
+                        <img
+                            src="pretty-girl-dress.jpeg"
+                            alt="Pretty girls dress"
+                        >
+
+                    </div>
+
+                    <div class="shop-product-info">
+
+                        <p class="product-category">
+                            Women's Wear
+                        </p>
+
+                        <h3>Pretty Girls Dress</h3>
+
+                        <p class="shop-price">₦40,000</p>
+
+                        <a
+                            href="https://wa.me/2349035915493?text=Hello%20Drip%20by%20I%26A%2C%20I'm%20interested%20in%20the%20Pretty%20Girls%20Dress."
+                            class="btn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Order on WhatsApp
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+
+                        <button class="btn add-to-cart" type="button">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 2. Floral Vintage Dress -->
+
+                <article class="shop-product-card" data-category="women">
+
+                    <div class="shop-product-image">
+
+                        <img
+                            src="vintage-dress.jpeg"
+                            alt="Floral vintage dress"
+                        >
+
+                    </div>
+
+                    <div class="shop-product-info">
+
+                        <p class="product-category">
+                            Women's Wear
+                        </p>
+
+                        <h3>Floral Vintage Dress</h3>
+
+                        <p class="shop-price">₦30,000</p>
+
+                        <a
+                            href="https://wa.me/2349035915493?text=Hello%20Drip%20by%20I%26A%2C%20I'm%20interested%20in%20the%20Floral%20Vintage%20Dress."
+                            class="btn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Order on WhatsApp
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+
+                        <button class="btn add-to-cart" type="button">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 3. Patterned Shirt -->
+
+                <article class="shop-product-card" data-category="men">
+
+                    <div class="shop-product-image">
+
+                        <img
+                            src="patterned-image.jpeg"
+                            alt="Patterned shirt"
+                        >
+
+                    </div>
+
+                    <div class="shop-product-info">
+
+                        <p class="product-category">
+                            Men's Wear
+                        </p>
+
+                        <h3>Patterned Shirt</h3>
+
+                        <p class="shop-price">₦18,000</p>
+
+                        <a
+                            href="https://wa.me/2349035915493?text=Hello%20Drip%20by%20I%26A%2C%20I'm%20interested%20in%20the%20Patterned%20Shirt."
+                            class="btn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Order on WhatsApp
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+
+                        <button class="btn add-to-cart" type="button">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 4. Combat Joggers -->
+
+                <article class="shop-product-card" data-category="streetwear">
+
+                    <div class="shop-product-image">
+
+                        <img
+                            src="jorgas.image.jpeg"
+                            alt="Combat joggers"
+                        >
+
+                    </div>
+
+                    <div class="shop-product-info">
+
+                        <p class="product-category">
+                            Streetwear
+                        </p>
+
+                        <h3>Combat Joggers</h3>
+
+                        <p class="shop-price">₦40,000</p>
+
+                        <a
+                            href="https://wa.me/2349035915493?text=Hello%20Drip%20by%20I%26A%2C%20I'm%20interested%20in%20the%20Combat%20Joggers."
+                            class="btn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Order on WhatsApp
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+
+                        <button class="btn add-to-cart" type="button">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 5. Retro Denim Jacket -->
+
+                <article class="shop-product-card" data-category="men">
+
+                    <div class="shop-product-image">
+
+                        <img
+                            src="retro-denim-jacet-images.jpeg"
+                            alt="Retro denim jacket"
+                        >
+
+                    </div>
+
+                    <div class="shop-product-info">
+
+                        <p class="product-category">
+                            Men's Wear
+                        </p>
+
+                        <h3>Retro Denim Jacket</h3>
+
+                        <p class="shop-price">₦25,000</p>
+
+                        <a
+                            href="https://wa.me/2349035915493?text=Hello%20Drip%20by%20I%26A%2C%20I'm%20interested%20in%20the%20Retro%20Denim%20Jacket."
+                            class="btn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Order on WhatsApp
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+
+                        <button class="btn add-to-cart" type="button">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 6. Wedding Suits -->
+
+                <article class="shop-product-card" data-category="men">
+
+                    <div class="shop-product-image">
+
+                        <img
+                            src="suits-images2.jpeg"
+                            alt="Wedding suits"
+                        >
+
+                    </div>
+
+                    <div class="shop-product-info">
+
+                        <p class="product-category">
+                            Men's Wear
+                        </p>
+
+                        <h3>Wedding Suits</h3>
+
+                        <p class="shop-price">₦100,000</p>
+
+                        <a
+                            href="https://wa.me/2349035915493?text=Hello%20Drip%20by%20I%26A%2C%20I'm%20interested%20in%20the%20Wedding%20Suits."
+                            class="btn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Order on WhatsApp
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+
+                        <button class="btn add-to-cart" type="button">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 7. Cool Jacket -->
+
+                <article class="shop-product-card" data-category="men">
+
+                    <div class="shop-product-image">
+
+                        <img
+                            src="retro-jacket-images.jpeg"
+                            alt="Cool jacket for kids"
+                        >
+
+                    </div>
+
+                    <div class="shop-product-info">
+
+                        <p class="product-category">
+    Men's Wear
+</p>
+
+                        <h3>Cool Jacket</h3>
+
+                        <p class="shop-price">₦20,000</p>
+
+                        <a
+                            href="https://wa.me/2349035915493?text=Hello%20Drip%20by%20I%26A%2C%20I'm%20interested%20in%20the%20Cool%20Jacket."
+                            class="btn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Order on WhatsApp
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+
+                        <button class="btn add-to-cart" type="button">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 8. Girls Short -->
+
+                <article class="shop-product-card" data-category="kids">
+
+                    <div class="shop-product-image">
+
+                        <img
+                            src="pretty-girl-short-suit.jpeg"
+                            alt="Girls short suit"
+                        >
+
+                    </div>
+
+                    <div class="shop-product-info">
+
+                        <p class="product-category">
+                            Kids Wear
+                        </p>
+
+                        <h3>Girls Short</h3>
+
+                        <p class="shop-price">₦30,000</p>
+
+                        <a
+                            href="https://wa.me/2349035915493?text=Hello%20Drip%20by%20I%26A%2C%20I'm%20interested%20in%20the%20Girls%20Short."
+                            class="btn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Order on WhatsApp
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+
+                        <button class="btn add-to-cart" type="button">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 9. Summer Dress -->
+
+                <article class="shop-product-card" data-category="kids">
+
+                    <div class="shop-product-image">
+
+                        <img
+                            src="pretty-trendy-girls.jpeg"
+                            alt="Summer dress"
+                        >
+
+                    </div>
+
+                    <div class="shop-product-info">
+
+                        <p class="product-category">
+                            Kids Wear
+                        </p>
+
+                        <h3>Summer Dress</h3>
+
+                        <p class="shop-price">₦18,000</p>
+
+                        <a
+                            href="https://wa.me/2349035915493?text=Hello%20Drip%20by%20I%26A%2C%20I'm%20interested%20in%20the%20Summer%20Dress."
+                            class="btn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Order on WhatsApp
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+
+                        <button class="btn add-to-cart" type="button">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 10. Cool Boys Dress -->
+
+                <article class="shop-product-card" data-category="kids">
+
+                    <div class="shop-product-image">
+
+                        <img
+                            src="fashion-baby-boy.jpeg"
+                            alt="Cool boys dress"
+                        >
+
+                    </div>
+
+                    <div class="shop-product-info">
+
+                        <p class="product-category">
+                            Kids Wear
+                        </p>
+
+                        <h3>Cool Boys Dress</h3>
+
+                        <p class="shop-price">₦100,000</p>
+
+                        <a
+                            href="https://wa.me/2349035915493?text=Hello%20Drip%20by%20I%26A%2C%20I'm%20interested%20in%20the%20Cool%20Boys%20Dress."
+                            class="btn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Order on WhatsApp
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+
+                        <button class="btn add-to-cart" type="button">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 11. Wedding Dress for Little Girls -->
+
+                <article class="shop-product-card" data-category="kids">
+
+                    <div class="shop-product-image">
+
+                        <img
+                            src="pretty-party-wear.jpeg"
+                            alt="Wedding dress for little girls"
+                        >
+
+                    </div>
+
+                    <div class="shop-product-info">
+
+                        <p class="product-category">
+                            Kids Wear
+                        </p>
+
+                        <h3>Wedding Dress for Little Girls</h3>
+
+                        <p class="shop-price">₦200,000</p>
+
+                        <a
+                            href="https://wa.me/2349035915493?text=Hello%20Drip%20by%20I%26A%2C%20I'm%20interested%20in%20the%20Wedding%20Dress%20for%20Little%20Girls."
+                            class="btn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Order on WhatsApp
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+
+                        <button class="btn add-to-cart" type="button">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+            <!-- ================================
+                 CART
+            ================================= -->
+
+            <div id="cart">
+
+                <h2>Your Cart</h2>
+
+                <div id="cart-items"></div>
+
+                <p id="cart-total">Total: ₦0</p>
+                <a
+    id="checkout-whatsapp"
+    class="btn"
+    href="#"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    Order Cart on WhatsApp
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ================================
+             WHATSAPP CTA
+        ================================= -->
+
+        <section class="cta">
+
+            <p class="section-label">
+                NEED HELP FINDING YOUR FIT?
+            </p>
+
+            <h2>
+                Talk to us on
+                <span>WhatsApp.</span>
+            </h2>
+
+            <a
+                href="https://wa.me/2349035915493"
+                class="btn"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Chat on WhatsApp
+                <i class="fab fa-whatsapp"></i>
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================================
+         FOOTER
+    ================================= -->
+
+    <footer class="site-footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <h2>
+                    DRIP <span>by I&A</span>
+                </h2>
+
+                <p>
+                    Vintage finds. Modern vibes.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+
+                <a href="shop.html">Shop</a>
+
+                <a href="about.html">About</a>
+
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                <h3>Follow Us</h3>
+
+                <a
+                    href="https://wa.me/2349035915493"
+                    aria-label="WhatsApp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <a
+                    href="#"
+                    aria-label="Instagram"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy;
+                <span id="footer-year"></span>
+                Drip by I&A. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <button
+        id="scroll-top"
+        type="button"
+        aria-label="Scroll to top"
+    >
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
