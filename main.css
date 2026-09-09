@@ -64,13 +64,11 @@ img {
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem 2rem;
-
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
+    gap: 1rem;
 }
-
 /* Brand */
 
 .brand {
@@ -97,6 +95,7 @@ img {
 .nav-links {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1.5rem;
 }
 
@@ -146,6 +145,11 @@ img {
     cursor: pointer;
     font-size: 0.85rem;
     font-weight: 600;
+    flex-shrink: 0;
+    justify-self: end;
+    flex-shrink: 0;
+
+    white-space: nowrap;
 
     transition:
         background 0.3s ease,
@@ -1410,4 +1414,37 @@ body.dark-mode {
         padding: 1.5rem;
     }
 
+}
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.6rem 0.5rem;
+        grid-template-columns: auto 1fr auto;
+        gap: 0.4rem;
+    }
+
+    .brand {
+        gap: 0.2rem;
+    }
+
+    .brand-main {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    .brand-sub {
+        font-size: 0.6rem;
+    }
+
+    .nav-links {
+        gap: 0.5rem;
+    }
+
+    .nav-links a {
+        font-size: 0.65rem;
+    }
+
+    .theme-toggle {
+        padding: 0.35rem 0.45rem;
+        font-size: 0.6rem;
+    }
 }
